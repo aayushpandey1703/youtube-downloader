@@ -4,6 +4,7 @@ from tkinter.filedialog import *
 from tkinter.messagebox import *
 from threading import *
 file = 0
+yo
 def progress1(stream=None,chunk=None,remaining=None):
     size = (file-remaining)
     per = (size/file)*100
